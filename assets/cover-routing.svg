@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="250" viewBox="0 0 720 250" role="img" aria-labelledby="title desc">
+<title id="title">Payment Routing</title><desc id="desc">STRATEGIES / FALLBACK / ANALYTICS</desc>
+<defs><linearGradient id="bg"><stop stop-color="#12232b"/><stop offset="1" stop-color="#0d151f"/></linearGradient><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#71d9ce" stroke-opacity=".055"/></pattern></defs>
+<rect width="720" height="250" rx="12" fill="url(#bg)"/><rect width="720" height="250" rx="12" fill="url(#grid)"/>
+<path d="M32 36h20M32 36v20" fill="none" stroke="#71d9ce" stroke-width="2"/>
+<text x="48" y="89" fill="#71d9ce" font-family="Consolas,monospace" font-size="20" letter-spacing="3">SYSTEMS / 02</text>
+<text x="44" y="151" fill="#e6edf3" font-family="Segoe UI,Arial,sans-serif" font-size="48" font-weight="500">Payment Routing</text>
+<text x="48" y="194" fill="#a9c2cc" font-family="Consolas,monospace" font-size="18">STRATEGIES / FALLBACK / ANALYTICS</text>
+<g transform="translate(500 40)" fill="none" stroke="#71d9ce" stroke-width="2"><path d="M12 90h43V24h81M55 90h81M55 90v66h81" opacity=".65"/><rect x="0" y="78" width="24" height="24" rx="5" fill="#12232b"/><rect x="136" y="12" width="24" height="24" rx="5" fill="#12232b"/><rect x="136" y="78" width="24" height="24" rx="5" fill="#12232b"/><rect x="136" y="144" width="24" height="24" rx="5" fill="#12232b"/><circle cx="55" cy="90" r="5" fill="#71d9ce"/></g></svg>

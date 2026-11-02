@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="250" viewBox="0 0 1440 250" role="img" aria-labelledby="title desc">
+<title id="title">Telegram Chat Analyzer</title><desc id="desc">LOCAL MODELS / TRACEABLE QUOTES / CLI + WEB</desc>
+<defs><linearGradient id="bg"><stop stop-color="#12232b"/><stop offset="1" stop-color="#0d151f"/></linearGradient><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#71d9ce" stroke-opacity=".055"/></pattern></defs>
+<rect width="1440" height="250" rx="12" fill="url(#bg)"/><rect width="1440" height="250" rx="12" fill="url(#grid)"/>
+<path d="M32 36h20M32 36v20" fill="none" stroke="#71d9ce" stroke-width="2"/>
+<text x="48" y="89" fill="#71d9ce" font-family="Consolas,monospace" font-size="20" letter-spacing="3">LOCAL AI / 03</text>
+<text x="44" y="151" fill="#e6edf3" font-family="Segoe UI,Arial,sans-serif" font-size="48" font-weight="500">Telegram Chat Analyzer</text>
+<text x="48" y="194" fill="#a9c2cc" font-family="Consolas,monospace" font-size="18">LOCAL MODELS / TRACEABLE QUOTES / CLI + WEB</text>
+<g transform="translate(970 30)" fill="none" stroke="#71d9ce"><rect x="0" y="14" width="390" height="180" rx="10" opacity=".3"/><path d="M0 49h390" opacity=".2"/><circle cx="19" cy="32" r="3" fill="#71d9ce"/><circle cx="32" cy="32" r="3" fill="#71d9ce" opacity=".5"/><path d="M24 73l10 10-10 10M47 95h73M24 123h218M24 146h176M24 169h262" stroke-width="3" opacity=".7"/></g></svg>

@@ -1,12 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-labelledby="title desc">
 <title id="title">RomanAles — Chamomille AI Lab</title><desc id="desc">Dark technical banner with teal accents and an abstract model graph.</desc>
+<style>
+.cursor{animation:blink 1.2s steps(1,end) infinite}
+.signal{fill:none;stroke:#71d9ce;stroke-width:2;stroke-linecap:round;stroke-dasharray:12 350;animation:flow 5s linear infinite}
+.signal.second{animation-delay:-2s;animation-duration:6s}
+.pulse{transform-box:fill-box;transform-origin:center;animation:glow 4s ease-in-out infinite}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes flow{to{stroke-dashoffset:-362}}
+@keyframes glow{0%,100%{opacity:.25}50%{opacity:.8}}
+@media(prefers-reduced-motion:reduce){.cursor,.signal,.pulse{animation:none}.signal{display:none}}
+</style>
 <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111e25"/><stop offset="1" stop-color="#0d141e"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#71d9ce" stroke-opacity=".045"/></pattern><linearGradient id="fade"><stop stop-color="#71d9ce" stop-opacity="0"/><stop offset=".45" stop-color="#71d9ce" stop-opacity=".7"/><stop offset="1" stop-color="#71d9ce" stop-opacity=".1"/></linearGradient></defs>
 <rect x="1" y="1" width="1278" height="378" rx="16" fill="url(#bg)" stroke="#294049" stroke-width="2"/><rect x="2" y="2" width="1276" height="376" rx="15" fill="url(#grid)"/>
 <path d="M56 66h32M56 66v32M1224 282v32h-32" fill="none" stroke="#71d9ce" opacity=".6" stroke-width="2"/>
 <text x="74" y="100" font-family="Consolas,monospace" font-size="21" letter-spacing="4" fill="#71d9ce">CHAMOMILLE / AI LAB</text>
-<text x="68" y="212" font-family="Consolas,monospace" font-size="94" font-weight="500" letter-spacing="-5" fill="#e8f1f4">RomanAles<tspan fill="#71d9ce">_</tspan></text>
+<text x="68" y="212" font-family="Consolas,monospace" font-size="94" font-weight="500" letter-spacing="-5" fill="#e8f1f4">RomanAles<tspan class="cursor" fill="#71d9ce">_</tspan></text>
 <text x="74" y="263" font-family="Segoe UI,Arial,sans-serif" font-size="23" fill="#b5c5cf">Explore. Build. Evaluate. Iterate.</text>
 <g fill="none" stroke="#71d9ce"><path d="M825 235L908 118L1018 258L1148 117M825 235L1018 258M908 118L1148 117M908 118L1037 161L1148 117M1037 161L1018 258L1148 258M1037 161L1148 258" opacity=".2"/><circle cx="1037" cy="161" r="74" opacity=".09"/><circle cx="1037" cy="161" r="112" opacity=".05"/></g>
 <circle cx="822" cy="93" r="4" fill="#71d9ce" opacity=".8"/><circle cx="877" cy="93" r="2" fill="#71d9ce" opacity=".25"/><circle cx="932" cy="93" r="2" fill="#71d9ce" opacity=".25"/><circle cx="987" cy="93" r="2" fill="#71d9ce" opacity=".8"/><circle cx="1042" cy="93" r="2" fill="#71d9ce" opacity=".25"/><circle cx="1097" cy="93" r="2" fill="#71d9ce" opacity=".25"/><circle cx="822" cy="140" r="2" fill="#71d9ce" opacity=".8"/><circle cx="877" cy="140" r="4" fill="#71d9ce" opacity=".25"/><circle cx="932" cy="140" r="2" fill="#71d9ce" opacity=".25"/><circle cx="987" cy="140" r="2" fill="#71d9ce" opacity=".8"/><circle cx="1042" cy="140" r="2" fill="#71d9ce" opacity=".25"/><circle cx="1097" cy="140" r="2" fill="#71d9ce" opacity=".25"/><circle cx="822" cy="187" r="2" fill="#71d9ce" opacity=".8"/><circle cx="877" cy="187" r="2" fill="#71d9ce" opacity=".25"/><circle cx="932" cy="187" r="4" fill="#71d9ce" opacity=".25"/><circle cx="987" cy="187" r="2" fill="#71d9ce" opacity=".8"/><circle cx="1042" cy="187" r="2" fill="#71d9ce" opacity=".25"/><circle cx="1097" cy="187" r="2" fill="#71d9ce" opacity=".25"/><circle cx="822" cy="234" r="2" fill="#71d9ce" opacity=".8"/><circle cx="877" cy="234" r="2" fill="#71d9ce" opacity=".25"/><circle cx="932" cy="234" r="2" fill="#71d9ce" opacity=".25"/><circle cx="987" cy="234" r="4" fill="#71d9ce" opacity=".8"/><circle cx="1042" cy="234" r="2" fill="#71d9ce" opacity=".25"/><circle cx="1097" cy="234" r="2" fill="#71d9ce" opacity=".25"/><circle cx="822" cy="281" r="2" fill="#71d9ce" opacity=".8"/><circle cx="877" cy="281" r="2" fill="#71d9ce" opacity=".25"/><circle cx="932" cy="281" r="2" fill="#71d9ce" opacity=".25"/><circle cx="987" cy="281" r="2" fill="#71d9ce" opacity=".8"/><circle cx="1042" cy="281" r="4" fill="#71d9ce" opacity=".25"/><circle cx="1097" cy="281" r="2" fill="#71d9ce" opacity=".25"/><g fill="#101e25" stroke="#71d9ce" stroke-width="2"><circle cx="825" cy="235" r="8"/><circle cx="908" cy="118" r="8"/><circle cx="1018" cy="258" r="8"/><circle cx="1148" cy="117" r="8"/><circle cx="1148" cy="258" r="8"/><circle cx="1037" cy="161" r="12"/></g>
 <path d="M74 326H1206" stroke="url(#fade)"/>
-</svg>
+<g aria-hidden="true">
+<path class="signal" d="M825 235L908 118L1037 161L1148 117"/>
+<path class="signal second" d="M908 118L1018 258L1148 258"/>
+<circle class="pulse" cx="1037" cy="161" r="23" fill="none" stroke="#71d9ce" stroke-width="2"/>
+</g></svg>
