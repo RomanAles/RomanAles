@@ -10,7 +10,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="./assets/typing-static.svg" />
-    <img src="./assets/typing.svg" width="680" alt="Building computer vision tools · Exploring local LLMs · Turning experiments into systems" />
+    <img src="./assets/typing.svg" width="680" alt="Building computer vision tools · Exploring local LLMs · Turning experiments into systems · И так далее по кругу)..." />
   </picture>
 </p>
 
